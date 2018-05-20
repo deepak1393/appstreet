@@ -1,0 +1,30 @@
+.product-card{
+    margin: 16px;
+    border: 1px solid #eee;
+    box-shadow: 0 2px 3px #ccc;
+    padding: 16px;
+}
+
+.product-image{
+    width: 100%;
+    height: 180px;
+}
+
+.product-price {
+    font-weight: bold;
+}
+
+.product-name {
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.product-info{
+    white-space: nowrap;
+    overflow: hidden;
+    font-size: 12px;
+    color: #777;
+    margin: 5px 5px;
+    text-overflow: ellipsis;
+}
